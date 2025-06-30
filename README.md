@@ -10,7 +10,7 @@
 python -m venv {venv-name}
 ```
 
-> **Recommended Setting:** Set ExecutionPolicy to RemoteSigned. This allows us to run local scripts without any restrictions. Downloaded scripts can run if signed by a trusted publisher.
+> **Recommended Setting:** Set powershell ExecutionPolicy to RemoteSigned. This allows us to run local scripts without any restrictions. Downloaded scripts can run if signed by a trusted publisher.
 
 ### ✅ Activating the Virtual Environment
 
