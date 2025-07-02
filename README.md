@@ -48,3 +48,6 @@ python manage.py startapp <app-name>
 ```bash
 python manage.py runserver
 ```
+
+### ➡️ Register the app in settings
+> Add <app-name> to **INSTALLED_APPS** in <code>settings.py</code>
