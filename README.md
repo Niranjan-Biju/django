@@ -25,3 +25,26 @@ pip install django
 ```
 
 > **Recommended Practice:** Save the list of packages and their versions into a file called <code>requirements.txt</code>. This enables us to recreate the exact environment when sharing or deploying. Command: <code>**pip freeze > requirements.txt**</code>
+
+##   DAY 2: Creating a Django Project and App
+
+### ➡️ Creating the Django project
+
+```bash
+django-admin startproject <project-name>
+```
+* Multiple apps can exist within the same project
+* Change working directory to project folder
+
+### ➡️ Creating the app
+
+```bash
+python manage.py startapp <app-name>
+```
+> In Django, the "project" is the overall container, and "apps" are components (e.g., blog, users, products, etc.)
+
+### ➡️ Running the project
+
+```bash
+python manage.py runserver
+```
