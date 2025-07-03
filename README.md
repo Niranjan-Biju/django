@@ -52,3 +52,11 @@ python manage.py runserver
 
 ### ➡️ Register the app in settings
 > Add <app-name> to **INSTALLED_APPS** in <code>settings.py</code>.
+
+## ⏭️Next step: Connecting the view to user-accessible URL(Basic)
+
+> <code>views.py</code> -> Define a function to accept a HTTP request and return an appropriate HTTP response.
+
+> <code>{app-name}/urls.py</code> -> It is used to map the URL to views.
+
+> <code>{project-name}/urls.py</code> -> Maps incoming requests to the appropriate app’s URL configuration.
