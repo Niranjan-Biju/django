@@ -9,7 +9,8 @@
 ```bash
 python -m venv {venv-name}
 ```
-
+* Create a venv for each project to avoid version conflicts or dependency problems.
+  
 > **Recommended Setting:** Set powershell ExecutionPolicy to RemoteSigned. This allows us to run local scripts without any restrictions. Downloaded scripts can run if signed by a trusted publisher.
 
 ### ✅ Activating the Virtual Environment
@@ -33,8 +34,8 @@ pip install django
 ```bash
 django-admin startproject <project-name>
 ```
-* Multiple apps can exist within the same project
-* Change working directory to project folder
+* Multiple apps can exist within the same project.
+* Change working directory to project folder.
 
 ### ➡️ Creating the app
 
@@ -50,4 +51,4 @@ python manage.py runserver
 ```
 
 ### ➡️ Register the app in settings
-> Add <app-name> to **INSTALLED_APPS** in <code>settings.py</code>
+> Add <app-name> to **INSTALLED_APPS** in <code>settings.py</code>.
