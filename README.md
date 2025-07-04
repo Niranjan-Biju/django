@@ -103,4 +103,8 @@ python manage.py runserver
 
 * Defining database structure.
 
+## 🔄 Django Request-Response Cycle
+
+<code>HTTP Request</code> → <code>Web Server</code> → <code>WSGI/ASGI</code> → <code>Middleware (Authentication, Log Requests, etc.)</code> → <code>URL Routing</code> → <code>View Function Returns a Response</code> → <code>Middleware (Add Cookies, Log Response, etc.)</code> → <code>Sent Response to the Browser</code>
+
 ---
