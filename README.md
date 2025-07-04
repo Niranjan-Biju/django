@@ -60,3 +60,47 @@ python manage.py runserver
 > <code>{app-name}/urls.py</code> -> It is used to map the URL to views.
 
 > <code>{project-name}/urls.py</code> -> Maps incoming requests to the appropriate app’s URL configuration.
+
+---
+
+## DAY 3: Important Django Files
+
+### <code>**manage.py**</code>
+
+* Enables us to interact with the Django project via terminal.
+
+### <code>**settings.py**</code>
+
+* It contains all project-wide settings.
+* It is the main configuration file for:
+
+  * Installed apps
+
+  * Database setup
+
+  * Static files
+
+  * Middleware
+
+  * Templates
+
+  * Security keys
+ 
+### <code>**urls.py(Project)**</code>
+
+* To route the HTTP requests to the specified app.
+
+### <code>**urls.py(App)**</code>
+
+* To map URL to the necessary view.
+* Not automatically created by Django.
+
+### <code>**views.py**</code>
+
+* Contains functions that accepts HTTP requests and return appropriate HTTP response.
+
+### <code>**models.py**</code>
+
+* Defining database structure.
+
+---
